@@ -30,7 +30,15 @@ const Gallery = () => {
         </p>
         <button type='button' className='custom__button'>View More</button>
       </div>
-      
+      <div className="app__gallery-images">
+        <div className="app__gallery-images_container" ref={scrollRef}>
+            {[images.gallery01, images.gallery02, images.gallery03, images.gallery04.map((image, index) => (
+              <img src={image} alt='gallery_image' />
+              <BsInstagram className='gallery__image-icon' />
+              </div>
+            ))]}
+        </div>
+      </div>
     </div>
   )
 };
