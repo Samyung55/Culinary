@@ -37,6 +37,9 @@ const Footer = () => (
       </div>
     </div>
 
+    <div className="footer__copyright">
+      <p className="p__opensans">2023 &copy; Gericht. All Rights reserved. Developed By Sam Fred</p>
+    </div>
   </div>
 );
 
